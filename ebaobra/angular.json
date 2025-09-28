@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "obraobra": {
+    "ebaobra": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/obraobra",
+            "outputPath": "dist/ebaobra",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "obraobra:build:production"
+              "buildTarget": "ebaobra:build:production"
             },
             "development": {
-              "buildTarget": "obraobra:build:development"
+              "buildTarget": "ebaobra:build:development"
             }
           },
           "defaultConfiguration": "development"
