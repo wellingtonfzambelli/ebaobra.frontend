@@ -2990,13 +2990,14 @@ form input[type=color] {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  text-transform: uppercase;
   width: 100%;
   padding: 13px 15px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 22.4px;
   background-color: var(--White);
-  border: 1px solid var(--Line);
+  border: 0px solid var(--Line);
   border-radius: 16px;
   color: var(--Text);
   overflow: hidden;
